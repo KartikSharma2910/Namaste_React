@@ -1,0 +1,17 @@
+Node Modules Contains all the dependencies.
+Like we installed Parcel -> It have some dependencies -> It's dependencies have some more dependencies.
+
+Parcel ->
+- Creates a dev build
+- Creates a local server
+- HMR = Hot module replacemnet (Because it uses a file watching algorithm that is written in C++)
+- It is doing caching (Which provides faster builds).
+- Image optimization for us is done by parcel. (it is the most expensive task).
+- Bundling
+- Minification
+- Compress files (So that size is small).
+- Differential Bundling (To support older browsers).
+
+Remove main:"index.js" from package.json while using parcel.
+
+
