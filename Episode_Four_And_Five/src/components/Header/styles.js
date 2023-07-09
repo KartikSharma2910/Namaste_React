@@ -7,8 +7,19 @@ const styles = {
     height: "80px",
     boxShadow: "0 15px 40px -20px rgba(40,44,63,.15)",
     transition: "transform .3s ease",
+    backgroundColor: "white",
     position: "sticky",
     top: 0,
+  },
+
+  locationWrapper: {
+    display: "flex",
+    alignItems: "center",
+  },
+
+  location: {
+    width: "400px",
+    fontSize: "14px",
   },
 
   itemWrapper: {
@@ -26,6 +37,7 @@ const styles = {
   label: {
     fontSize: "16px",
     cursor: "pointer",
+    fontWeight: 500,
     "&:hover": {
       color: "#fc8019",
     },

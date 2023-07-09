@@ -1,4 +1,4 @@
-import LocalOfferIcon from "@mui/icons-material/LocalOffer";
+import LocalOfferOutlinedIcon from "@mui/icons-material/LocalOfferOutlined";
 import PersonOutlineOutlinedIcon from "@mui/icons-material/PersonOutlineOutlined";
 import SearchIcon from "@mui/icons-material/Search";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
@@ -12,7 +12,7 @@ export const headerData = [
     label: "Search",
   },
   {
-    icon: <LocalOfferIcon />,
+    icon: <LocalOfferOutlinedIcon />,
     label: "Offers",
   },
   {
